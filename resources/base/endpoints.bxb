@@ -3,9 +3,24 @@ endpoints {
     none
   }
   action-endpoints {
-    action-endpoint (FindRoutine) {
-      accepted-inputs (name, type, maxCnt)
-      local-endpoint ("FindRoutine.js")
+    action-endpoint (TrainingDescription) {
+      accepted-inputs (TrainingName)
+      local-endpoint ("TrainingDescription.js")
+    }
+
+    action-endpoint (TrainingRecommend) {
+      accepted-inputs (RoutineName)
+      local-endpoint ("TrainingRecommend.js")
+    }
+
+    action-endpoint (RoutineCounting) {
+      accepted-inputs (RoutineName)
+      local-endpoint ("RoutineCounting.js")
+    }
+
+    action-endpoint (TimeTrainingRecommend) {
+      accepted-inputs (Time)
+      local-endpoint ("TimeTrainingRecommend.js")
     }
 
     action-endpoint (Counting) {
