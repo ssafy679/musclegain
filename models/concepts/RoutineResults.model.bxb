@@ -1,0 +1,40 @@
+structure (RoutineResults) {
+  description ('루틴 결과')
+  
+  property (rName) {
+    type (RName)
+    min (Optional) max (One)
+  }
+  property (rNo){
+    type(RNo)
+    min (Optional) max (One)
+  }
+  property (rTime){
+    type(RTime)
+    min (Optional) max (One)
+  }
+  property (rDesc){
+    type(RDesc)
+    min (Optional) max (One)
+  }
+  property (rEffect){
+    type(REffect)
+    min (Optional) max (One)
+  }
+  property (formula){
+    type(Formula)
+    min (Optional) max (One)
+  }
+  property (keywords){
+    type(Keywords)
+    min (Optional) max (One)
+  }
+  property (refURL){
+    type(RefURL)
+    min (Optional) max (One)
+  }
+  property (youtubeURL){
+    type(YoutubeURL)
+    min (Optional) max (One)
+  }
+}

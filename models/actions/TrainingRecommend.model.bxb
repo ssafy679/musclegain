@@ -1,0 +1,11 @@
+action (TrainingRecommend) {
+  description (사용자가 입력한 루틴 추천해주기)
+  collect {
+    input (routineName) {
+      type (RoutineName)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (RoutineResults)
+}
