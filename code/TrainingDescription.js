@@ -1,5 +1,5 @@
 module.exports.function = function trainingDescription (trainingName) {
-  const tempData = require("./data/TempData.js");
+  const tempDatas = require("./data/Exercise.js");
   const console = require("console");
 
   /*------ 디버깅용 ------*/
@@ -11,8 +11,11 @@ module.exports.function = function trainingDescription (trainingName) {
   }
 
   /*------ 실행 ------*/
-  let results = [];
-  trainingName;
+  for(let i = 0; i < tempDatas.length; i++) {
+    if(tempDatas[i].tName == trainingName) {
+      return tempDatas[i];
+    }
+  }
 
   console.log(results);
   console.log("###TrainingDescription() end...");
