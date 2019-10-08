@@ -1,6 +1,7 @@
-structure (Exercises) {
-  description (A whole Exercises structure)
-  property (tName) {
+structure (TrainingCountResults) {
+  description (특정 운동 카운트하기)
+  
+property (tName) {
     description ()
     type (TName)
     min (Optional) max (One)
@@ -40,6 +41,7 @@ structure (Exercises) {
     type (TPart)
     min (Optional) max (One)
   }
+  v
   property (tMuscle) {
     description ()
     type (TMuscle)
@@ -85,4 +87,5 @@ structure (Exercises) {
     type (image.Image)
     min (Optional) max (One)
   }
+
 }

@@ -1,0 +1,11 @@
+action (RoutineCounting) {
+  description (운동 루틴을 카운트해주는 액션)
+  collect {
+    input (routineName) { // 운동 루틴 이름
+      type (RoutineName)
+      min (Required) max (One)
+    }
+  }
+
+  output (RoutineCountResults)
+}

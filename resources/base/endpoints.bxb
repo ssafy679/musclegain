@@ -15,7 +15,7 @@ endpoints {
 
     action-endpoint (RoutineCounting) {
       accepted-inputs (RoutineName)
-      local-endpoint ("RoutineCounting.js")
+      local-endpoint ("routineCounting.js")
     }
 
     action-endpoint (TimeTrainingRecommend) {
@@ -23,11 +23,9 @@ endpoints {
       local-endpoint ("TimeTrainingRecommend.js")
     }
 
-    action-endpoint (Counting) {
-      accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-      remote-endpoint (__ENDPOINT_URL__) {
-        method (__HTTP_METHOD_USED__)
-      }
+    action-endpoint (TrainingCount) {
+      accepted-inputs (TrainingName)
+      local-endpoint ("TrainingCount.js")
     }
   }
 }

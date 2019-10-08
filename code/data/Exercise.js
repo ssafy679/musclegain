@@ -2,7 +2,7 @@ module.exports = [ //Exercise Table
 	//Start of 스쿼트
   {
     tName: "스쿼트",
-    Tno: "T01",
+    Tno: "T01", //text
     tDesc: "쭈구려 앉아서 하는 운동입니다.",
     caution:"직각을 유지해야합니다.",
     perSet:"15",
@@ -15,7 +15,7 @@ module.exports = [ //Exercise Table
     day: "1.25",
     kcal: "4.0",
     cnt: "2",
-    refURL: "www.naver.com",
+    refURL: "www.naver.com", //text
     youtubeURL: "www.youtube.com",
     imgURL: "www.google.com",
   },
