@@ -1,8 +1,11 @@
 capsule-info {
-  display-name (__DISPLAY_NAME__)
-  developer-name (__COMPANY_NAME__)
+  display-name (musclegain)
+  developer-name (muscleloss)
   icon-asset (icon.png)
-  description ("__DESCRIPTION__")
-  website-url (https://example.com/)
-  terms-url (https://example.com/terms-of-use/)
+  dispatch-aliases {
+    alias (근이득)
+  }
+  description ("30일 운동 루틴을 제공해줍니다.")
+  website-url (https://github.com/ssafy679/musclegain.git)
+  terms-url (https://github.com/ssafy679/musclegain.git)
 }
