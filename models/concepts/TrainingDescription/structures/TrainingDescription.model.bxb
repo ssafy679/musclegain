@@ -1,4 +1,4 @@
-structure (Exercises) {
+structure (Exerci) {
   description (A whole Exercises structure)
   property (tName) {
     description ()
@@ -38,13 +38,12 @@ structure (Exercises) {
   property (tPart) {
     description ()
     type (TPart)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
-  v
   property (tMuscle) {
     description ()
     type (TMuscle)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
   property (hasRoutine) {
     description ()
@@ -54,7 +53,7 @@ structure (Exercises) {
   property (tTime) {
     description ()
     type (TTime)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
   property (day) {
     description ()
@@ -83,7 +82,7 @@ structure (Exercises) {
   }
   property (imgURL) {
     description ()
-    type (image.Image)
+    type (ImageURL)
     min (Optional) max (One)
   }
 }
