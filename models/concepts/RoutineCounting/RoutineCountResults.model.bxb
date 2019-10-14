@@ -41,7 +41,7 @@ property (tName) {
     type (TPart)
     min (Optional) max (One)
   }
-  v
+  
   property (tMuscle) {
     description ()
     type (TMuscle)
@@ -84,7 +84,7 @@ property (tName) {
   }
   property (imgURL) {
     description ()
-    type (image.Image)
+    type (ImgURL)
     min (Optional) max (One)
   }
 

@@ -2,11 +2,7 @@ module.exports = [ //Exercise Table
 	//Start of 스쿼트
   {
     tName: "스쿼트",
-<<<<<<< HEAD
-    Tno: "T01", //text
-=======
     tNo: "T01",
->>>>>>> c7e95b13f75f671fb869d1e8ecfd155a7a532b45
     tDesc: "쭈구려 앉아서 하는 운동입니다.",
     caution:"직각을 유지해야합니다.",
     perSet:"15",
