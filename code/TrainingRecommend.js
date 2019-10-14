@@ -1,5 +1,4 @@
-module.exports.function = function routineRecommend (routineName) {
-
+module.exports.function = function trainingRecommend (routineName) {
   const tempDatas = require("./data/Exercise.js");
   const console = require("console");
 
@@ -20,29 +19,5 @@ module.exports.function = function routineRecommend (routineName) {
 
   console.log(results);
   console.log('trainingRecommend is end...');
-  // return {}
-
-  // const console = require('console');
-  // console.log('this is routineRecommend');
-  
-  // if(routineName == null){
-  //   console.log('routineName is null')
-  //   return result = null;
-  // } else {
-
-  // }
-  //routineName과 같은 루틴명을 routine_table에서 찾고
-  
-
-
-  //routineTable에서 routineName의 추천
-
-  return {
-    results: 'result'
-  }
+  return {}
 }
-
-
-
-
-

@@ -13,21 +13,13 @@ structure (RoutineResults) {
     type(RTime)
     min (Optional) max (One)
   }
-  property (rDesc){
-    type(RDesc)
-    min (Optional) max (One)
-  }
   property (rEffect){
     type(REffect)
     min (Optional) max (One)
   }
   property (formula){
     type(Formula)
-    min (Optional) max (One)
-  }
-  property (keywords){
-    type(Keywords)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
   property (refURL){
     type(RefURL)
