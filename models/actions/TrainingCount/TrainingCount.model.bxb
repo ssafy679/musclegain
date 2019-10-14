@@ -1,10 +1,10 @@
 action (TrainingCount) {
-  description (특정 운동 세트 카운트 해주기)
+  description (특정 운동 세트 카운트 해주기) //주석, 이 함수가 무슨일 하는지 설명
   collect {
-    input (trainingName) {
-      type (TrainingName)
+    input (trainingName) { //js에서 쓰일 변수명
+      type (TrainingName) //concept에서 쓰일 변수명
       min (Required) max (One)
     }
   }
-  output (TrainingCountResults)
+  output (TrainingCountResults) //아웃풋 컨셉 (따로 정의해줘야함)
 }
