@@ -1,5 +1,5 @@
 structure (TimeTrainingResults) {
-  description ('시간대에 따른 운동 루틴 결과')
+  description (시간대에 따른 운동 루틴 결과 action의 output 객체)
 
   property (result) {
     type (Result)

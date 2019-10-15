@@ -1,5 +1,5 @@
 structure (TrainingCountResults) {
-  description (특정 운동 카운트하기)
+  description (특정 운동 카운트하기 action의 output 객체)
   
 property (tName) {
     description ()

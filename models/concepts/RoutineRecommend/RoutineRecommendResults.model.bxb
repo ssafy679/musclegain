@@ -1,5 +1,5 @@
-structure (RoutineResults) {
-  description ('루틴 결과')
+structure (RoutineRecommendResults) {
+  description (요청 루틴 결과를 보여주는 action의 output 객체)
   
   property (rName) {
     type (RName)

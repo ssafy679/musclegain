@@ -1,6 +1,6 @@
 module.exports.function = function routineRecommend (routineName) {
 
-  const tempDatas = require("./data/Exercise.js");
+  const tempDatas = require("./data/Training.js");
   const console = require("console");
 
   /* --- --- */

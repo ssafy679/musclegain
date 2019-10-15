@@ -2,8 +2,13 @@ capsule-info {
   display-name (musclegain)
   developer-name (muscleloss)
   icon-asset (icon.png)
+  dispatch-name (근이득)
   dispatch-aliases {
-    alias (근이득)
+    alias (musclegain)
+  }
+  search-keywords {
+    keyword (운동명)
+    keyword (루틴명)
   }
   description ("30일 운동 루틴을 제공해줍니다.")
   website-url (https://github.com/ssafy679/musclegain.git)

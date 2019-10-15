@@ -1,0 +1,29 @@
+layout-macro-def(training-result) {
+	params {
+		param (trainingresult) {
+			type (TrainingDescriptionResults)
+			min (Required) max (One)
+		}
+	}
+	
+	content {
+		title-area {
+			slot1 {
+				text {
+					value ("#{value(trainingresult.tName)}")
+				}
+			}
+			halign (Center)
+			slot2 {
+				single-line {
+					text {
+						value ("시간당 #{value(trainingresult.kcal)} kcal 소모")
+					}
+          spacer {
+            
+          }
+				}
+			}
+		}
+	}
+}

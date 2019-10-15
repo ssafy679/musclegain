@@ -6,6 +6,6 @@ action (RoutineCounting) {
       min (Required) max (One)
     }
   }
-
+  type (Search)
   output (RoutineCountResults)
 }

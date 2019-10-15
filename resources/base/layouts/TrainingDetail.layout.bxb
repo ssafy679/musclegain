@@ -1,0 +1,84 @@
+layout-macro-def(training-detail) {
+	params {
+		param (trainingresult) {
+			type (TrainingDescriptionResults)
+			min (Required) max (One)
+		}
+	}
+
+	content {
+		layout {  // this macro returns a "layout"
+			section {
+				content {
+					image {
+						url ("#{value(trainingresult.imgURL)}")
+					}
+					divider
+				}
+			}
+			section {
+				content {
+					title-area {
+						halign (Start)
+						slot1 {
+							text {
+								style (Title_S)
+								value {
+									template ("#{value(trainingresult.tName)}")
+								}
+							}
+						}
+						slot2 {
+							single-line {
+								text {
+									value {
+										template ("증상 부위: #{value(trainingresult.tPart)}")
+									}
+									style (Detail_L)
+								}
+							}
+						}
+						// slot3 {
+						// 	single-line {
+						// 		text {
+						// 			value {
+						// 				template ("증상: #{value(disease.symptom)}")
+						// 			}
+						// 			style (Detail_L)
+						// 		}
+						// 	}
+						// }
+					}
+					title-area {
+						slot2 {
+							single-line {
+								text {
+									value {
+										template ("원인: #{value(trainingresult.tDesc)}")
+									}
+									style (Detail_L)
+								}
+							}
+						}
+					}
+					input-cell {
+						label {
+							template ("주요 증상")
+						}
+						value {
+							template ("#{value(trainingresult.setNum)}")
+						}
+						on-click {
+							intent {
+								goal { @context (Continuation) TrainingDescription }
+							}
+						}
+					}
+					paragraph ("#{value(trainingresult.kcal)}") {
+						style (Detail_M_Soft)
+					}
+				}
+			}
+		}
+	}
+}

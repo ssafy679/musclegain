@@ -1,5 +1,5 @@
 capsule {
-  id (musclegain.example)
+  id (playground.musclegain)
 
   // 캡슐 등록시 동일한 버전으로는 업로드를 할 수 없습니다.
   // 등록시 주의!

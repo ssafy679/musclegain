@@ -1,5 +1,5 @@
-structure (Exerci) {
-  description (A whole Exercises structure)
+structure (TrainingDescriptionResults) {
+  description (운동 찾기 action의 output 객체)
   property (tName) {
     description ()
     type (TName)
@@ -82,7 +82,7 @@ structure (Exerci) {
   }
   property (imgURL) {
     description ()
-    type (ImageURL)
+    type (ImgURL)
     min (Optional) max (One)
   }
 }

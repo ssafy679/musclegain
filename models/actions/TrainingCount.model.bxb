@@ -6,5 +6,6 @@ action (TrainingCount) {
       min (Required) max (One)
     }
   }
+  type (Search)
   output (TrainingCountResults) //아웃풋 컨셉 (따로 정의해줘야함)
 }

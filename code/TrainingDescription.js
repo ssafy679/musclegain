@@ -1,23 +1,26 @@
-module.exports.function = function trainingDescription (trainingName) {
-  const tempDatas = require("./data/Exercise.js");
+module.exports.function = function trainingDescription (TrainingName) {
+  const tData = require("./data/Training.js");
   const console = require("console");
 
   /*------ 디버깅용 ------*/
-  if (trainingName == null)
+  if (TrainingName == null)
     console.log("trainingName is null")
   else {
-    console.log("trainingName : " + trainingName);
-    console.log("trainingName.length : " + trainingName.length)
+    console.log("trainingName : " + TrainingName);
+    console.log("trainingName.length : " + TrainingName.length)
   }
 
+  /*------ 선언부 ------*/
+  let results = [];
+  
   /*------ 실행 ------*/
-  for(let i = 0; i < tempDatas.length; i++) {
-    if(tempDatas[i].tName == trainingName) {
-      return tempDatas[i];
+  for(let i = 0; i < tData.length; i++) {
+    if(tData[i].tName.match(TrainingName)) {
+      results.push(tData[i]);
     }
   }
 
   console.log(results);
   console.log("###TrainingDescription() end...");
-  return {}
+  return results;
 }

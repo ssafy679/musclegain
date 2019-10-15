@@ -1,6 +1,5 @@
 action (TimeTrainingRecommend) {
-  description ('운동 시간대에 따른 루틴 추천')
-
+  description (운동 시간대에 따른 루틴 추천)
   collect {
     input (time) {
       type (Time)

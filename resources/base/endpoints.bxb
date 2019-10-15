@@ -1,28 +1,28 @@
 endpoints {
   action-endpoints {
     action-endpoint (TrainingDescription) {
-      accepted-inputs (TrainingName)
-      local-endpoint ("TrainingDescription.js")
+      accepted-inputs (trainingName)
+      local-endpoint (TrainingDescription.js)
     }
 
-    action-endpoint (TrainingRecommend) {
-      accepted-inputs (RoutineName)
-      local-endpoint ("TrainingRecommend.js")
+    action-endpoint (RoutineRecommend) {
+      accepted-inputs (routineName)
+      local-endpoint (RoutineRecommend.js)
     }
 
     action-endpoint (RoutineCounting) {
-      accepted-inputs (RoutineName)
-      local-endpoint ("routineCounting.js")
+      accepted-inputs (routineName)
+      local-endpoint (routineCounting.js)
     }
 
     action-endpoint (TimeTrainingRecommend) {
-      accepted-inputs (Time)
-      local-endpoint ("TimeTrainingRecommend.js")
+      accepted-inputs (time)
+      local-endpoint (TimeTrainingRecommend.js)
     }
 
     action-endpoint (TrainingCount) {
-      accepted-inputs (TrainingName)
-      local-endpoint ("TrainingCount.js")
+      accepted-inputs (trainingName)
+      local-endpoint (TrainingCount.js)
     }
   }
 }

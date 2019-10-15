@@ -1,5 +1,5 @@
 structure (RoutineCountResults) {
-  description (운동 루틴 카운트 시작)
+  description (운동 루틴 카운트 action의 output 객체)
  
 property (tName) {
     description ()
