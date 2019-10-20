@@ -32,29 +32,19 @@ layout-macro-def(training-detail) {
 							single-line {
 								text {
 									value {
-										template ("증상 부위: #{value(trainingresult.tPart)}")
+										template ("설명: #{value(trainingresult.tDesc)}")
 									}
 									style (Detail_L)
 								}
 							}
 						}
-						// slot3 {
-						// 	single-line {
-						// 		text {
-						// 			value {
-						// 				template ("증상: #{value(disease.symptom)}")
-						// 			}
-						// 			style (Detail_L)
-						// 		}
-						// 	}
-						// }
 					}
 					title-area {
 						slot2 {
 							single-line {
 								text {
 									value {
-										template ("원인: #{value(trainingresult.tDesc)}")
+										template ("주의 사항: #{value(trainingresult.caution)}")
 									}
 									style (Detail_L)
 								}
@@ -63,10 +53,10 @@ layout-macro-def(training-detail) {
 					}
 					input-cell {
 						label {
-							template ("주요 증상")
+							template ("운동 부위, 클릭시 운동방법으로 이동합니다.")
 						}
 						value {
-							template ("#{value(trainingresult.setNum)}")
+							template ("#{value(trainingresult.tPart)}")
 						}
 						on-click {
 							intent {
@@ -74,8 +64,21 @@ layout-macro-def(training-detail) {
 							}
 						}
 					}
-					paragraph ("#{value(trainingresult.kcal)}") {
+					paragraph ("시간당 소모 칼로리 : #{value(trainingresult.kcal)}") {
 						style (Detail_M_Soft)
+					}
+					input-cell {
+						label {
+							template ("관련 영상")
+						}
+						value {
+							template ("#{value(trainingresult.youtubeURL)}")
+						}
+						on-click {
+							intent {
+							goal : LaunchWeb
+							}
+						}
 					}
 				}
 			}
