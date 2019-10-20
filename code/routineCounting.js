@@ -1,12 +1,12 @@
-module.exports.function = function routineCounting (routineName) {
+module.exports.function = function routineCounting (rname) {
 
 const console = require('console');
 const rData = require("./data/Routine.js");
 
-  if(routineName == null){
+  if(rname == null){
     console.log("routineName is null");
   }else{
-     console.log("routineName : " + routineName);
+     console.log("routineName : " + rname);
   }
 
     /*------ 선언부 ------*/
@@ -14,7 +14,7 @@ const rData = require("./data/Routine.js");
   
   /*------ 실행 ------*/
   for(let i = 0; i < rData.length; i++) {
-    if(rData[i].rName.match(routineName)) {
+    if(rData[i].rName.match(rname)) {
       results.push(rData[i]);
     }
   }

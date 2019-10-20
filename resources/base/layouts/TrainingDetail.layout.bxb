@@ -28,16 +28,9 @@ layout-macro-def(training-detail) {
 								}
 							}
 						}
-						slot2 {
-							single-line {
-								text {
-									value {
-										template ("설명: #{value(trainingresult.tDesc)}")
-									}
-									style (Detail_L)
-								}
-							}
-						}
+					}
+					paragraph ("설명: #{value(trainingresult.tDesc)}") {
+						style (Detail_L)
 					}
 					title-area {
 						slot2 {
@@ -46,7 +39,7 @@ layout-macro-def(training-detail) {
 									value {
 										template ("주의 사항: #{value(trainingresult.caution)}")
 									}
-									style (Detail_L)
+									style (Detail_M)
 								}
 							}
 						}

@@ -2,8 +2,8 @@ action (TrainingDescription) {
   description (사용자 입력 운동 찾아 주기)
   type (Search)
   collect {
-    input (trainingName) {
-      type (TrainingName)
+    input (tName) {
+      type (TName)
       min (Optional) max (One)
     }
   }
