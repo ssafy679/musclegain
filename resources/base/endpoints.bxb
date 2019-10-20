@@ -21,7 +21,7 @@ endpoints {
     }
 
     action-endpoint (TrainingCount) {
-      accepted-inputs (trainingName)
+      accepted-inputs (trainingName, requireSet)
       local-endpoint (TrainingCount.js)
     }
   }

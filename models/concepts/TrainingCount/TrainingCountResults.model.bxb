@@ -11,16 +11,6 @@ property (tName) {
     type (TNo)
     min (Optional) max (One)
   }
-  property (tDesc) {
-    description ()
-    type (TDesc)
-    min (Optional) max (One)
-  }
-  property (caution) {
-    description ()
-    type (Caution)
-    min (Optional) max (One)
-  }
   property (perSet) {
     description ()
     type (PerSet)
@@ -34,27 +24,6 @@ property (tName) {
   property (hasDir) {
     description ()
     type (HasDir)
-    min (Optional) max (One)
-  }
-  property (tPart) {
-    description ()
-    type (TPart)
-    min (Optional) max (One)
-  }
-  
-  property (tMuscle) {
-    description ()
-    type (TMuscle)
-    min (Optional) max (One)
-  }
-  property (hasRoutine) {
-    description ()
-    type (HasRoutine)
-    min (Optional) max (One)
-  }
-  property (tTime) {
-    description ()
-    type (TTime)
     min (Optional) max (One)
   }
   property (day) {
@@ -72,19 +41,9 @@ property (tName) {
     type (Cnt)
     min (Optional) max (One)
   }
-  property (refURL) {
+   property (requireSet) {
     description ()
-    type (RefURL)
-    min (Optional) max (One)
-  }
-  property (youtubeURL) {
-    description ()
-    type (YoutubeURL)
-    min (Optional) max (One)
-  }
-  property (imgURL) {
-    description ()
-    type (ImgURL)
+    type (RequireSet)
     min (Optional) max (One)
   }
 

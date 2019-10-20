@@ -5,6 +5,11 @@ action (TrainingCount) {
       type (TrainingName) //concept에서 쓰일 변수명
       min (Required) max (One)
     }
+
+     input (requireSet) { //js에서 쓰일 변수명
+      type (RequireSet) //concept에서 쓰일 변수명
+      min (Optional) max (One)
+    }
   }
   type (Search)
   output (TrainingCountResults) //아웃풋 컨셉 (따로 정의해줘야함)
