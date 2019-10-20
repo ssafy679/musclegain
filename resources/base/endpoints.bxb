@@ -1,17 +1,17 @@
 endpoints {
   action-endpoints {
     action-endpoint (TrainingDescription) {
-      accepted-inputs (trainingName)
+      accepted-inputs (tName)
       local-endpoint (TrainingDescription.js)
     }
 
     action-endpoint (RoutineRecommend) {
-      accepted-inputs (routineName)
+      accepted-inputs (rName)
       local-endpoint (RoutineRecommend.js)
     }
 
     action-endpoint (RoutineCounting) {
-      accepted-inputs (routineName)
+      accepted-inputs (rName)
       local-endpoint (routineCounting.js)
     }
 
@@ -21,7 +21,7 @@ endpoints {
     }
 
     action-endpoint (TrainingCount) {
-      accepted-inputs (trainingName, requireSet)
+      accepted-inputs (tName, requireSet)
       local-endpoint (TrainingCount.js)
     }
   }

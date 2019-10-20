@@ -1,3 +1,0 @@
-name (RoutineName) {
-  description ('input으로 들어갈 루틴 이름')
-}

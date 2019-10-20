@@ -1,3 +1,0 @@
-name (TrainingName) {
-  description ('input으로 들어갈 트레이닝 이름')
-}

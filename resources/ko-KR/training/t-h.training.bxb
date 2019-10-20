@@ -1,5 +1,5 @@
 train (t-hlzohrikyzp5mj4gy43msfdx8) {
-  utterance ("[g:TrainingDescription] (팔굽혀펴기)[v:TrainingName] 가르쳐줘")
-  plan (Y2Bm0M0tLU7OSU1PzMzTS61IzC3ISdULKQLyMvPSXVKLk4syC0oy8/OCUotLc0qKGdSIU84gj0edX2JuKgMTAyMQMwBJRgYQgPIB)
-  last-modified (1571151547158)
+  utterance ("[g:TrainingDescriptionResults] (팔굽혀펴기)[v:TName] 가르쳐줘")
+  plan (Y2BmMCjISaxML8ovzUvRyy0tTs5JTU/MzNMLKQKSmXnpLqnFyUWZBSWZ+XlBqcWlOSXFDJpE62CQxqHULzE3lYGJgRGIGYAkIwMIMEEwAA==)
+  last-modified (1571570134204)
 }
