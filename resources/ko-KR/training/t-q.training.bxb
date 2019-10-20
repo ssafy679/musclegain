@@ -1,0 +1,6 @@
+train (t-q3f5ve7bqcu8uwwvj42qqbho3) {
+  utterance ("[g:RoutineCountResults] (아침)[v:RName] 운동 시작해줘")
+  plan (Y2BikC7ISaxML8ovzUvRyy0tTs5JTU/MzNML8kvMTWXQxCGZX1qSmZfqDBQvCUotLs0pKWZgYGBkYAJiIAAA)
+  enabled (false)
+  last-modified (1571569982627)
+}
