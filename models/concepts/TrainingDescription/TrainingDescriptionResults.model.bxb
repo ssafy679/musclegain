@@ -85,4 +85,5 @@ structure (TrainingDescriptionResults) {
     type (ImgURL)
     min (Optional) max (One)
   }
+  
 }
