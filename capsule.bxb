@@ -15,6 +15,8 @@ capsule {
     concepts-inherit-super-type-features
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
 
   // 빅스비에서 지원하는 캡슐 라이브러리를 사용하고 싶으면
