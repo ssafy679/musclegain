@@ -17,6 +17,8 @@ capsule {
     support-halt-effect-in-computed-inputs
     no-filtering-with-validation
     modern-default-view-behavior
+
+    use-input-views-for-selection-list-detail
   }
 
   // 빅스비에서 지원하는 캡슐 라이브러리를 사용하고 싶으면

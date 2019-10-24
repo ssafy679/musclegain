@@ -51,6 +51,9 @@ module.exports.function = function trainingCount(tName, requireSet) {
         }
       }
     } else {
+
+      
+
       for (var i = 0; i < perset; i++) {
         speech += Num[i];
         for (var j = 0; j < cnt; j++) {
@@ -64,6 +67,8 @@ module.exports.function = function trainingCount(tName, requireSet) {
       // }
     }
     speech += "。。。한세트가 완료되었습니다. 일분정도 휴식을 취해주세요."
+
+    if(cnt)
     console.log("speech" + speech);
 
     // let speech = "둘。둘。둘。둘。둘。둘。둘。둘。둘。둘。둘。둘。둘。둘。";
