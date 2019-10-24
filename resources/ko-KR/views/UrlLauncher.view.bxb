@@ -8,15 +8,15 @@ result-view{
         content{
           title-area{
             halign (Center)
+            // slot2{
+            //   single-line{
+            //     text{
+            //       value("#{value(this.tName)}")
+            //       style (Title_M)
+            //     }
+            //   }
+            // }
             slot2{
-              single-line{
-                text{
-                  value("#{value(this.tname)}")
-                  style (Title_M)
-                }
-              }
-            }
-            slot3{
               single-line{
                 text{
                   value("유튜브 동영상 링크로 넘어갑니다.")
@@ -30,6 +30,6 @@ result-view{
     }
   }
   app-launch{
-    payload-uri("#{value(this.youtubeurl)}")
+    payload-uri("#{value(this.youtubeURL)}")
   }
 }

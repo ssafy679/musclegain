@@ -2,8 +2,8 @@ action (LaunchWeb) {
   type(Search)
   description (유튜브 웹을 실행한다)
   collect {
-    input (tName) {
-      type (TName)
+    input (youtubeURL) {
+      type (YoutubeURL)
       min (Required) max (One)
     }
   }

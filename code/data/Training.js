@@ -151,7 +151,7 @@ module.exports = [ //Exercise Table
     kcal: "",
     cnt: "",
     refURL: "www.naver.com", //text
-    youtubeURL: "www.youtube.com",
+    youtubeURL: "https://www.youtube.com/watch?v=RPuhkBPGBio",
     imgURL: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FJhIppZKJYNlS0%2Fgiphy-downsized.gif",
   },
   {

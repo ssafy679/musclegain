@@ -69,7 +69,8 @@ layout-macro-def(training-detail) {
 						}
 						on-click {
 							intent {
-							goal : LaunchWeb
+								goal: LaunchWeb
+								value :	YoutubeURL (trainingresult.youtubeURL)
 							}
 						}
 					}

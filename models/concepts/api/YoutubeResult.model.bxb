@@ -1,10 +1,6 @@
 structure (YoutubeResult) {
   description (유튜브 동영상 URL을 가져오는 구조체)
-  property (tname) {
-    type (TName)
-    min (Required) max (One)
-  }
-  property (youtubeurl){
+  property (youtubeURL){
     type (YoutubeURL)
     min (Required) max (One)
   }
